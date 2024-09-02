@@ -1,0 +1,3 @@
+Bus checked in at spot 0 at Mon Sep 02 20:24:57 2024
+Motorcycle checked in at spot 1 at Mon Sep 02 20:25:02 2024
+Bus checked in at spot 0 at Mon Sep 02 20:27:34 2024
