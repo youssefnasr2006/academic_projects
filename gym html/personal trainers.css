@@ -1,0 +1,74 @@
+body {
+    color: red;
+    padding-left: 50px;
+    background-color: black;
+}
+
+#logo{
+    margin-top: 20px;
+    margin-left: 600px;
+}
+#sales{
+    font-size: 40;
+    color: rgb(255, 255, 255);
+    margin-left: 650px;
+}
+#transformations{
+    font-size: 40;
+    color: rgb(255, 255, 255);
+    margin-left: 650px;
+}
+#exercises{
+    font-size: 40;
+    color: rgb(255, 255, 255);
+    margin-left: 650px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+    nav{
+        background: #000000;
+        height: 80px;
+        width: 100%;
+        
+        
+    }
+    label.iconbar{
+        color: white;
+        font-size: 35px;
+        line-height: 80px;
+        padding: 0 100px;
+        font-weight: bold;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height:80px;
+    }
+    nav ul{
+        float: right;
+       margin:  0 0 ;
+       color: #fff;
+    }
+    
+    
+    nav ul li a{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        padding: 7px 13px;
+        margin-left: 20px;
+        border: radius 0;;
+    
+        text-transform: uppercase;
+    
+    }
+    a.active,a:hover{
+        background: rgb(8, 215, 157);
+        transition:  .5s;
+    }
+    del {
+        text-decoration: line-through;
+    }

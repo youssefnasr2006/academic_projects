@@ -1,0 +1,55 @@
+.home {
+    height: 1500px; ;
+   background-color: rgba(0, 0, 0, 0.915);
+   color: azure;
+   font-size: xx-large;
+   text-align: center;}
+   .iconbar  {
+    font-family: montserrat;
+   }
+   *{
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+   list-style: none;
+   box-sizing: border-box;
+   }
+nav{
+    background: #000000;
+    height: 80px;
+    width: 100%;
+    
+    
+}
+label.iconbar{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul li{
+    display: inline-block;
+    line-height:80px;
+}
+nav ul{
+    float: right;
+   margin:  0 0  ;
+   color: #fff;
+}
+
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 7px 13px;
+    margin-left: 20px;
+    border: radius 0;;
+
+    text-transform: uppercase;
+
+}
+a.active,a:hover{
+    background: rgb(8, 215, 157);
+    transition:  .5s;
+}
